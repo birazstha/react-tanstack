@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply text-2xl;
+}
+
+h2 {
+    @apply text-xl;
+}
+
+h3 {
+    @apply text-lg;
+}
+
+a {
+    @apply text-blue-600 underline;
+}
+
+.bg-image {
+
+    background-image: url('../public/group.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.event-item {
+    @apply  text-white rounded-[3px]  bg-[#242527];
+}
